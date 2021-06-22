@@ -357,68 +357,56 @@ footer hr {
     width: 90%;
     height: 60%;
   }
-}
-
-.biography_section .bio_container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.biography_section .bio_container .bio_left {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  padding: 2rem 0rem;
-  width: 100%;
-  height: 100%;
-}
-
-.biography_section .bio_container .bio_left img {
-  width: 30rem;
-  height: 15rem;
-}
-
-.biography_section .bio_container .bio_right {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  width: 100%;
-  height: 100%;
-}
-
-.biography_section .bio_container .bio_right h1 {
-  font-size: 1.2rem;
-}
-
-.biography_section .bio_container .bio_right p {
-  font-size: .7rem;
-}
-
-.biography_section .bio_container .bio_right a {
-  padding: .4rem .6rem;
-  font-size: .7rem;
-}
-
-footer .footer_section {
-  padding: 2rem 2rem;
-}
-
-footer .footer_section h2 {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-footer .footer_section .footer_para P {
-  width: 100%;
-}
-
-footer .footer_section .footer_email {
-  padding: 2rem 4rem;
-}
-
-footer .footer_section .footer_email h3 {
-  font-size: .8rem;
+  .biography_section .bio_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .biography_section .bio_container .bio_left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 2rem 0rem;
+    width: 100%;
+    height: 100%;
+  }
+  .biography_section .bio_container .bio_left img {
+    width: 30rem;
+    height: 15rem;
+  }
+  .biography_section .bio_container .bio_right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .biography_section .bio_container .bio_right h1 {
+    font-size: 1.2rem;
+  }
+  .biography_section .bio_container .bio_right p {
+    font-size: .7rem;
+  }
+  .biography_section .bio_container .bio_right a {
+    padding: .4rem .6rem;
+    font-size: .7rem;
+  }
+  footer .footer_section {
+    padding: 2rem 2rem;
+  }
+  footer .footer_section h2 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  footer .footer_section .footer_para P {
+    width: 100%;
+  }
+  footer .footer_section .footer_email {
+    padding: 2rem 4rem;
+  }
+  footer .footer_section .footer_email h3 {
+    font-size: .8rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
