@@ -282,6 +282,10 @@ footer{
 // responsive setup
 
 @media (max-width:774px) {
+
+    body{
+        overflow-x: hidden;
+    }
    
     header{
 
@@ -418,6 +422,10 @@ footer{
             }
         }
     }
+}
+
+hr{
+    display: none;
 }
 
 }

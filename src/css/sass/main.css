@@ -324,6 +324,9 @@ footer hr {
 }
 
 @media (max-width: 774px) {
+  body {
+    overflow-x: hidden;
+  }
   header .header_container {
     padding: 2rem 2rem;
     -webkit-box-orient: vertical;
@@ -424,6 +427,9 @@ footer hr {
   }
   footer .footer_section .footer_email h3 {
     font-size: .8rem;
+  }
+  hr {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
