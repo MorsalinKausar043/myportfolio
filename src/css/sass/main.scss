@@ -366,13 +366,37 @@ footer{
     }
 }
 
+// letest work
+
+.letest_work{
+
+    .work_container{
+        padding: 1rem 2rem;
+
+        .work_title{
+            font-size: 1rem;
+    }
+
+    .work_content{
+        flex-direction: column;
+
+        .workboth{
+            width: 100%;
+            height: inherit;
+            margin-bottom: 1rem;
+        }
+    }
+ }
+
+}    
+
 
 // footer work
 
 footer{
 
     .footer_section{
-        padding: 2rem 2rem;
+        padding: 1rem 2rem;
 
         h2{
             font-size: 1rem;

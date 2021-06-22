@@ -392,8 +392,25 @@ footer hr {
     padding: .4rem .6rem;
     font-size: .7rem;
   }
+  .letest_work .work_container {
+    padding: 1rem 2rem;
+  }
+  .letest_work .work_container .work_title {
+    font-size: 1rem;
+  }
+  .letest_work .work_container .work_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .letest_work .work_container .work_content .workboth {
+    width: 100%;
+    height: inherit;
+    margin-bottom: 1rem;
+  }
   footer .footer_section {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
   }
   footer .footer_section h2 {
     font-size: 1rem;
