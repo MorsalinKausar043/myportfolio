@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
 </head>
 <body>
+    <!-- preloader div start -->
+        <div id="preloader"></div>
+    <!-- preloader div end -->
     <header>
         <div class="header_container">
             <div class="left_header">
@@ -79,6 +82,10 @@
 
         <hr>
     </footer>
-
+     <!-- set up javascript -->
+     <script>
+         const preloader = document.getElementById("preloader");
+         window.addEventListener('load' , ()=> preloader.style.display = "none")
+     </script>
 </body>
 </html>

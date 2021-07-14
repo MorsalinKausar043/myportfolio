@@ -11,6 +11,15 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+#preloader {
+  width: 100vw;
+  height: 100vh;
+  background: #000 url("../../../images/black-preloader.gif") no-repeat center;
+  background-size: 20%;
+  position: fixed;
+  z-index: 1000;
+}
+
 header {
   width: 100%;
   height: 100%;
